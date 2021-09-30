@@ -20,6 +20,7 @@ header {
 
 main {
   background-color: hsl(0deg, 0%, 60%);
+  color: hsl(0deg, 0%, 10%);
 }
 
 .max-width-wrapper {
@@ -28,9 +29,11 @@ main {
   margin-right: auto;
 }
 
-.max-width-wrapper .intro-chunk{
-  max-width: 320px;
+.intro-chunk{
+  max-width: 368px;
   padding: 16px;
+  color: hsl(0deg, 0%, 10%);
+  font-size: 1.25rem;
 }
 
 .card {
